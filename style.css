@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.accordeon {
+    margin-top: 50px;
+    height: 70px;
+    border: 2px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordeon p {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.accordeon_img {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/angle-arrow-down_icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.contant {
+    display: none;
+    padding: 50px 20px;
+    border: 2px dashed;
+    transition:  0.2s ease-in-out;
+    
+}
+
+.is_active {
+    display: block;
+}
